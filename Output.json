@@ -1,209 +1,233 @@
 {
    "children": [
       {
-         "import": [],
-         "nodeType": "Imports"
+         "nodeType": "Imports",
+         "import": []
       },
       {
+         "name": "ClassDefinition",
+         "attributes": {
+            "baseClass": [],
+            "name": "Library"
+         },
          "children": [
             {
+               "name": "FunctionDefinition",
+               "attributes": {
+                  "kind": "function",
+                  "isStatic": "false",
+                  "name": "search",
+                  "visibility": "public",
+                  "isConstructor": "false"
+               },
                "children": [
                   {
-                     "children": [
-                        {
-                           "children": [
-                              {
-                                 "attributes": {
-                                    "type": "Integer",
-                                    "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
-                              }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "type": "int",
-                              "name": ""
-                           },
-                           "name": "VariableDeclaration"
-                        }
-                     ],
+                     "name": "ReturnParameterList",
                      "attributes": {
                         "parameters": []
                      },
-                     "name": "ReturnParameterList"
-                  },
-                  {
                      "children": [
                         {
-                           "children": [
-                              {
-                                 "attributes": {
-                                    "type": "Integer",
-                                    "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
-                              }
-                           ],
+                           "name": "VariableDeclaration",
                            "attributes": {
                               "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "name": "arr",
                               "type": "int",
-                              "isArray": "true"
+                              "name": "",
+                              "visibility": "internal",
+                              "value": "null"
                            },
-                           "name": "VariableDeclaration"
-                        },
-                        {
                            "children": [
                               {
+                                 "name": "BuiltInTypeName",
                                  "attributes": {
                                     "type": "Integer",
                                     "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
+                                 }
                               }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "name": "arr_len",
-                              "type": "int"
-                           },
-                           "name": "VariableDeclaration"
-                        },
-                        {
-                           "children": [
-                              {
-                                 "attributes": {
-                                    "type": "Integer",
-                                    "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
-                              }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "name": "x",
-                              "type": "int"
-                           },
-                           "name": "VariableDeclaration"
+                           ]
                         }
-                     ],
-                     "name": "ParameterList"
+                     ]
                   },
                   {
+                     "name": "ParameterList",
                      "children": [
                         {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "isArray": "true",
+                              "constant": "false",
+                              "type": "int",
+                              "name": "arr",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
                            "children": [
                               {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "Integer",
+                                    "name": "int"
+                                 }
+                              }
+                           ]
+                        },
+                        {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "type": "int",
+                              "name": "arr_len",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
+                           "children": [
+                              {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "Integer",
+                                    "name": "int"
+                                 }
+                              }
+                           ]
+                        },
+                        {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "type": "int",
+                              "name": "x",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
+                           "children": [
+                              {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "Integer",
+                                    "name": "int"
+                                 }
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "name": "Block",
+                     "children": [
+                        {
+                           "name": "ForStatement",
+                           "children": [
+                              {
+                                 "name": "VariableDeclarationStatement",
                                  "children": [
                                     {
+                                       "name": "VariableDeclaration",
+                                       "attributes": {
+                                          "type": "int",
+                                          "name": "i",
+                                          "value": "null"
+                                       },
                                        "children": [
                                           {
+                                             "name": "BuiltInTypeName",
                                              "attributes": {
-                                                "name": "int",
-                                                "type": "Integer"
-                                             },
-                                             "name": "BuiltInTypeName"
+                                                "type": "Integer",
+                                                "name": "int"
+                                             }
                                           }
-                                       ],
-                                       "attributes": {
-                                          "value": "null",
-                                          "name": "i",
-                                          "type": "int"
-                                       },
-                                       "name": "VariableDeclaration"
+                                       ]
                                     },
                                     {
+                                       "name": "Literal",
                                        "attributes": {
-                                          "value": "0",
-                                          "type": "int"
-                                       },
-                                       "name": "Literal"
+                                          "type": "int",
+                                          "value": "0"
+                                       }
                                     }
-                                 ],
-                                 "name": "VariableDeclarationStatement"
+                                 ]
                               },
                               {
-                                 "children": [
-                                    {
-                                       "attributes": {
-                                          "value": "i"
-                                       },
-                                       "name": "Identifier"
-                                    },
-                                    {
-                                       "attributes": {
-                                          "value": "arr_len"
-                                       },
-                                       "name": "Identifier"
-                                    }
-                                 ],
+                                 "name": "BinaryOperation",
                                  "attributes": {
+                                    "type": "int",
                                     "operator": "<",
                                     "commonType": {
-                                       "typeString": "int",
-                                       "typeIdentifier": "t_int"
-                                    },
-                                    "type": "int"
+                                       "typeIdentifier": "t_int",
+                                       "typeString": "int"
+                                    }
                                  },
-                                 "name": "BinaryOperation"
-                              },
-                              {
                                  "children": [
                                     {
+                                       "name": "Identifier",
+                                       "attributes": {
+                                          "value": "i"
+                                       }
+                                    },
+                                    {
+                                       "name": "Identifier",
+                                       "attributes": {
+                                          "value": "arr_len"
+                                       }
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "ExpressionStatement",
+                                 "children": [
+                                    {
+                                       "name": "UnaryOperation",
+                                       "attributes": {
+                                          "type": "int",
+                                          "prefix": "false",
+                                          "operator": "++"
+                                       },
                                        "children": [
                                           {
+                                             "name": "Identifier",
                                              "attributes": {
                                                 "value": "i"
-                                             },
-                                             "name": "Identifier"
+                                             }
                                           }
-                                       ],
-                                       "attributes": {
-                                          "operator": "++",
-                                          "prefix": "false",
-                                          "type": "int"
-                                       },
-                                       "name": "UnaryOperation"
+                                       ]
                                     }
-                                 ],
-                                 "name": "ExpressionStatement"
+                                 ]
                               },
                               {
+                                 "name": "Block",
                                  "children": [
                                     {
+                                       "name": "IfStatement",
                                        "children": [
                                           {
+                                             "name": "BinaryOperation",
+                                             "attributes": {
+                                                "type": "int",
+                                                "operator": "==",
+                                                "commonType": {
+                                                   "typeIdentifier": "t_int",
+                                                   "typeString": "int"
+                                                }
+                                             },
                                              "children": [
                                                 {
+                                                   "name": "IndexAccess",
                                                    "children": [
                                                       {
+                                                         "name": "Identifier",
                                                          "attributes": {
-                                                            "value": "arr",
-                                                            "type": "Array"
-                                                         },
-                                                         "name": "Identifier"
+                                                            "type": "Array",
+                                                            "value": "arr"
+                                                         }
                                                       },
                                                       {
+                                                         "name": "FunctionCall",
+                                                         "attributes": {
+                                                            "type": "int",
+                                                            "type_conversion": "true"
+                                                         },
                                                          "children": [
                                                             {
-                                                               "children": [
-                                                                  {
-                                                                     "attributes": {
-                                                                        "type": "Integer",
-                                                                        "name": "int"
-                                                                     },
-                                                                     "name": "BuiltInTypeName"
-                                                                  }
-                                                               ],
+                                                               "name": "ElementaryTypeNameExpression",
                                                                "attributes": {
                                                                   "argumentTypes": [
                                                                      {
@@ -212,745 +236,721 @@
                                                                   ],
                                                                   "type": "type(int)"
                                                                },
-                                                               "name": "ElementaryTypeNameExpression"
+                                                               "children": [
+                                                                  {
+                                                                     "name": "BuiltInTypeName",
+                                                                     "attributes": {
+                                                                        "type": "Integer",
+                                                                        "name": "int"
+                                                                     }
+                                                                  }
+                                                               ]
                                                             },
                                                             {
+                                                               "name": "Identifier",
                                                                "attributes": {
                                                                   "value": "i"
-                                                               },
-                                                               "name": "Identifier"
+                                                               }
                                                             }
-                                                         ],
-                                                         "attributes": {
-                                                            "type_conversion": "true",
-                                                            "type": "int"
-                                                         },
-                                                         "name": "FunctionCall"
+                                                         ]
                                                       }
-                                                   ],
-                                                   "name": "IndexAccess"
+                                                   ]
                                                 },
                                                 {
+                                                   "name": "Identifier",
                                                    "attributes": {
                                                       "value": "x"
-                                                   },
-                                                   "name": "Identifier"
+                                                   }
                                                 }
-                                             ],
-                                             "attributes": {
-                                                "operator": "==",
-                                                "commonType": {
-                                                   "typeString": "int",
-                                                   "typeIdentifier": "t_int"
-                                                },
-                                                "type": "int"
-                                             },
-                                             "name": "BinaryOperation"
+                                             ]
                                           },
                                           {
-                                             "children": [],
-                                             "name": "Block"
+                                             "name": "Block",
+                                             "children": []
                                           }
-                                       ],
-                                       "name": "IfStatement"
+                                       ]
                                     }
-                                 ],
-                                 "name": "Block"
+                                 ]
                               }
-                           ],
-                           "name": "ForStatement"
+                           ]
                         }
-                     ],
-                     "name": "Block"
+                     ]
                   }
-               ],
-               "attributes": {
-                  "isStatic": "false",
-                  "visibility": "public",
-                  "kind": "function",
-                  "name": "search",
-                  "isConstructor": "false"
-               },
-               "name": "FunctionDefinition"
+               ]
             },
             {
+               "name": "FunctionDefinition",
+               "attributes": {
+                  "kind": "function",
+                  "isStatic": "false",
+                  "name": "factorial",
+                  "visibility": "public",
+                  "isConstructor": "false"
+               },
                "children": [
                   {
-                     "children": [
-                        {
-                           "children": [
-                              {
-                                 "attributes": {
-                                    "type": "Integer",
-                                    "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
-                              }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "type": "int",
-                              "name": ""
-                           },
-                           "name": "VariableDeclaration"
-                        }
-                     ],
+                     "name": "ReturnParameterList",
                      "attributes": {
                         "parameters": []
                      },
-                     "name": "ReturnParameterList"
-                  },
-                  {
                      "children": [
                         {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "type": "int",
+                              "name": "",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
                            "children": [
                               {
+                                 "name": "BuiltInTypeName",
                                  "attributes": {
                                     "type": "Integer",
                                     "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
+                                 }
                               }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "name": "num",
-                              "type": "int"
-                           },
-                           "name": "VariableDeclaration"
+                           ]
                         }
-                     ],
-                     "name": "ParameterList"
+                     ]
                   },
                   {
+                     "name": "ParameterList",
                      "children": [
                         {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "type": "int",
+                              "name": "num",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
                            "children": [
                               {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "Integer",
+                                    "name": "int"
+                                 }
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "name": "Block",
+                     "children": [
+                        {
+                           "name": "VariableDeclarationStatement",
+                           "children": [
+                              {
+                                 "name": "VariableDeclaration",
+                                 "attributes": {
+                                    "type": "int",
+                                    "name": "copyNum",
+                                    "value": "null"
+                                 },
                                  "children": [
                                     {
+                                       "name": "BuiltInTypeName",
                                        "attributes": {
-                                          "name": "int",
-                                          "type": "Integer"
-                                       },
-                                       "name": "BuiltInTypeName"
+                                          "type": "Integer",
+                                          "name": "int"
+                                       }
                                     }
-                                 ],
-                                 "attributes": {
-                                    "value": "null",
-                                    "name": "copyNum",
-                                    "type": "int"
-                                 },
-                                 "name": "VariableDeclaration"
+                                 ]
                               },
                               {
+                                 "name": "Identifier",
                                  "attributes": {
                                     "value": "num"
-                                 },
-                                 "name": "Identifier"
+                                 }
                               }
-                           ],
-                           "name": "VariableDeclarationStatement"
+                           ]
                         },
                         {
+                           "name": "VariableDeclarationStatement",
                            "children": [
                               {
+                                 "name": "VariableDeclaration",
+                                 "attributes": {
+                                    "type": "int",
+                                    "name": "fact",
+                                    "value": "null"
+                                 },
                                  "children": [
                                     {
+                                       "name": "BuiltInTypeName",
                                        "attributes": {
-                                          "name": "int",
-                                          "type": "Integer"
-                                       },
-                                       "name": "BuiltInTypeName"
+                                          "type": "Integer",
+                                          "name": "int"
+                                       }
                                     }
-                                 ],
-                                 "attributes": {
-                                    "value": "null",
-                                    "name": "fact",
-                                    "type": "int"
-                                 },
-                                 "name": "VariableDeclaration"
+                                 ]
                               },
                               {
+                                 "name": "Literal",
                                  "attributes": {
-                                    "value": "1",
-                                    "type": "int"
-                                 },
-                                 "name": "Literal"
+                                    "type": "int",
+                                    "value": "1"
+                                 }
                               }
-                           ],
-                           "name": "VariableDeclarationStatement"
+                           ]
                         },
                         {
+                           "name": "IfStatement",
                            "children": [
                               {
-                                 "children": [
-                                    {
-                                       "attributes": {
-                                          "value": "num"
-                                       },
-                                       "name": "Identifier"
-                                    },
-                                    {
-                                       "attributes": {
-                                          "value": "0",
-                                          "type": "int"
-                                       },
-                                       "name": "Literal"
-                                    }
-                                 ],
+                                 "name": "BinaryOperation",
                                  "attributes": {
+                                    "type": "int",
                                     "operator": "<",
                                     "commonType": {
-                                       "typeString": "int",
-                                       "typeIdentifier": "t_int"
-                                    },
-                                    "type": "int"
+                                       "typeIdentifier": "t_int",
+                                       "typeString": "int"
+                                    }
                                  },
-                                 "name": "BinaryOperation"
-                              },
-                              {
                                  "children": [
                                     {
-                                       "children": [
-                                          {
-                                             "attributes": {
-                                                "value": "fact"
-                                             },
-                                             "name": "Identifier"
-                                          },
-                                          {
-                                             "children": [
-                                                {
-                                                   "attributes": {
-                                                      "value": "1",
-                                                      "type": "int"
-                                                   },
-                                                   "name": "Literal"
-                                                }
-                                             ],
-                                             "attributes": {
-                                                "operator": "-",
-                                                "prefix": "false",
-                                                "type": "int"
-                                             },
-                                             "name": "UnaryOperation"
-                                          }
-                                       ],
+                                       "name": "Identifier",
+                                       "attributes": {
+                                          "value": "num"
+                                       }
+                                    },
+                                    {
+                                       "name": "Literal",
+                                       "attributes": {
+                                          "type": "int",
+                                          "value": "0"
+                                       }
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "Block",
+                                 "children": [
+                                    {
+                                       "name": "Assignment",
                                        "attributes": {
                                           "operator": "="
                                        },
-                                       "name": "Assignment"
-                                    }
-                                 ],
-                                 "name": "Block"
-                              },
-                              {
-                                 "children": [
-                                    {
                                        "children": [
                                           {
-                                             "children": [
-                                                {
-                                                   "attributes": {
-                                                      "value": "num"
-                                                   },
-                                                   "name": "Identifier"
-                                                },
-                                                {
-                                                   "attributes": {
-                                                      "value": "1",
-                                                      "type": "int"
-                                                   },
-                                                   "name": "Literal"
-                                                }
-                                             ],
+                                             "name": "Identifier",
                                              "attributes": {
-                                                "operator": ">",
-                                                "commonType": {
-                                                   "typeString": "int",
-                                                   "typeIdentifier": "t_int"
-                                                },
-                                                "type": "int"
-                                             },
-                                             "name": "BinaryOperation"
+                                                "value": "fact"
+                                             }
                                           },
                                           {
+                                             "name": "UnaryOperation",
+                                             "attributes": {
+                                                "type": "int",
+                                                "prefix": "false",
+                                                "operator": "-"
+                                             },
                                              "children": [
                                                 {
+                                                   "name": "Literal",
+                                                   "attributes": {
+                                                      "type": "int",
+                                                      "value": "1"
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "Block",
+                                 "children": [
+                                    {
+                                       "name": "WhileStatement",
+                                       "children": [
+                                          {
+                                             "name": "BinaryOperation",
+                                             "attributes": {
+                                                "type": "int",
+                                                "operator": ">",
+                                                "commonType": {
+                                                   "typeIdentifier": "t_int",
+                                                   "typeString": "int"
+                                                }
+                                             },
+                                             "children": [
+                                                {
+                                                   "name": "Identifier",
+                                                   "attributes": {
+                                                      "value": "num"
+                                                   }
+                                                },
+                                                {
+                                                   "name": "Literal",
+                                                   "attributes": {
+                                                      "type": "int",
+                                                      "value": "1"
+                                                   }
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name": "Block",
+                                             "children": [
+                                                {
+                                                   "name": "Assignment",
+                                                   "attributes": {
+                                                      "operator": "="
+                                                   },
                                                    "children": [
                                                       {
+                                                         "name": "Identifier",
                                                          "attributes": {
                                                             "value": "fact"
-                                                         },
-                                                         "name": "Identifier"
+                                                         }
                                                       },
                                                       {
-                                                         "children": [
-                                                            {
-                                                               "attributes": {
-                                                                  "value": "fact"
-                                                               },
-                                                               "name": "Identifier"
-                                                            },
-                                                            {
-                                                               "children": [
-                                                                  {
-                                                                     "attributes": {
-                                                                        "value": "num"
-                                                                     },
-                                                                     "name": "Identifier"
-                                                                  }
-                                                               ],
-                                                               "attributes": {
-                                                                  "operator": "--",
-                                                                  "prefix": "false",
-                                                                  "type": "int"
-                                                               },
-                                                               "name": "UnaryOperation"
-                                                            }
-                                                         ],
+                                                         "name": "BinaryOperation",
                                                          "attributes": {
+                                                            "type": "int",
                                                             "operator": "*",
                                                             "commonType": {
-                                                               "typeString": "int",
-                                                               "typeIdentifier": "t_int"
-                                                            },
-                                                            "type": "int"
+                                                               "typeIdentifier": "t_int",
+                                                               "typeString": "int"
+                                                            }
                                                          },
-                                                         "name": "BinaryOperation"
+                                                         "children": [
+                                                            {
+                                                               "name": "Identifier",
+                                                               "attributes": {
+                                                                  "value": "fact"
+                                                               }
+                                                            },
+                                                            {
+                                                               "name": "UnaryOperation",
+                                                               "attributes": {
+                                                                  "type": "int",
+                                                                  "prefix": "false",
+                                                                  "operator": "--"
+                                                               },
+                                                               "children": [
+                                                                  {
+                                                                     "name": "Identifier",
+                                                                     "attributes": {
+                                                                        "value": "num"
+                                                                     }
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
                                                       }
-                                                   ],
-                                                   "attributes": {
-                                                      "operator": "="
-                                                   },
-                                                   "name": "Assignment"
+                                                   ]
                                                 }
-                                             ],
-                                             "name": "Block"
+                                             ]
                                           }
-                                       ],
-                                       "name": "WhileStatement"
+                                       ]
                                     }
-                                 ],
-                                 "name": "Block"
+                                 ]
                               }
-                           ],
-                           "name": "IfStatement"
+                           ]
                         }
-                     ],
-                     "name": "Block"
+                     ]
                   }
-               ],
-               "attributes": {
-                  "isStatic": "false",
-                  "visibility": "public",
-                  "kind": "function",
-                  "name": "factorial",
-                  "isConstructor": "false"
-               },
-               "name": "FunctionDefinition"
+               ]
             },
             {
+               "name": "FunctionDefinition",
+               "attributes": {
+                  "kind": "function",
+                  "isStatic": "false",
+                  "name": "verifyFactorial",
+                  "visibility": "public",
+                  "isConstructor": "false"
+               },
                "children": [
                   {
-                     "children": [
-                        {
-                           "children": [
-                              {
-                                 "attributes": {
-                                    "type": "Integer",
-                                    "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
-                              }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "type": "int",
-                              "name": ""
-                           },
-                           "name": "VariableDeclaration"
-                        }
-                     ],
+                     "name": "ReturnParameterList",
                      "attributes": {
                         "parameters": []
                      },
-                     "name": "ReturnParameterList"
-                  },
-                  {
                      "children": [
                         {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "type": "int",
+                              "name": "",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
                            "children": [
                               {
+                                 "name": "BuiltInTypeName",
                                  "attributes": {
                                     "type": "Integer",
                                     "name": "int"
-                                 },
-                                 "name": "BuiltInTypeName"
+                                 }
                               }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "name": "num",
-                              "type": "int"
-                           },
-                           "name": "VariableDeclaration"
+                           ]
                         }
-                     ],
-                     "name": "ParameterList"
+                     ]
                   },
                   {
+                     "name": "ParameterList",
                      "children": [
                         {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "type": "int",
+                              "name": "num",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
                            "children": [
                               {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "Integer",
+                                    "name": "int"
+                                 }
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "name": "Block",
+                     "children": [
+                        {
+                           "name": "VariableDeclarationStatement",
+                           "children": [
+                              {
+                                 "name": "VariableDeclaration",
+                                 "attributes": {
+                                    "type": "int",
+                                    "name": "fact",
+                                    "value": "null"
+                                 },
                                  "children": [
                                     {
+                                       "name": "BuiltInTypeName",
                                        "attributes": {
-                                          "name": "int",
-                                          "type": "Integer"
-                                       },
-                                       "name": "BuiltInTypeName"
+                                          "type": "Integer",
+                                          "name": "int"
+                                       }
                                     }
-                                 ],
-                                 "attributes": {
-                                    "value": "null",
-                                    "name": "fact",
-                                    "type": "int"
-                                 },
-                                 "name": "VariableDeclaration"
+                                 ]
                               },
                               {
+                                 "name": "Literal",
                                  "attributes": {
-                                    "value": "1",
-                                    "type": "int"
-                                 },
-                                 "name": "Literal"
+                                    "type": "int",
+                                    "value": "1"
+                                 }
                               }
-                           ],
-                           "name": "VariableDeclarationStatement"
+                           ]
                         },
                         {
+                           "name": "IfStatement",
                            "children": [
                               {
-                                 "children": [
-                                    {
-                                       "attributes": {
-                                          "value": "num"
-                                       },
-                                       "name": "Identifier"
-                                    },
-                                    {
-                                       "attributes": {
-                                          "value": "0",
-                                          "type": "int"
-                                       },
-                                       "name": "Literal"
-                                    }
-                                 ],
+                                 "name": "BinaryOperation",
                                  "attributes": {
+                                    "type": "int",
                                     "operator": "<",
                                     "commonType": {
-                                       "typeString": "int",
-                                       "typeIdentifier": "t_int"
-                                    },
-                                    "type": "int"
+                                       "typeIdentifier": "t_int",
+                                       "typeString": "int"
+                                    }
                                  },
-                                 "name": "BinaryOperation"
-                              },
-                              {
                                  "children": [
                                     {
-                                       "children": [
-                                          {
-                                             "attributes": {
-                                                "value": "fact"
-                                             },
-                                             "name": "Identifier"
-                                          },
-                                          {
-                                             "children": [
-                                                {
-                                                   "attributes": {
-                                                      "value": "1",
-                                                      "type": "int"
-                                                   },
-                                                   "name": "Literal"
-                                                }
-                                             ],
-                                             "attributes": {
-                                                "operator": "-",
-                                                "prefix": "false",
-                                                "type": "int"
-                                             },
-                                             "name": "UnaryOperation"
-                                          }
-                                       ],
+                                       "name": "Identifier",
+                                       "attributes": {
+                                          "value": "num"
+                                       }
+                                    },
+                                    {
+                                       "name": "Literal",
+                                       "attributes": {
+                                          "type": "int",
+                                          "value": "0"
+                                       }
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "Block",
+                                 "children": [
+                                    {
+                                       "name": "Assignment",
                                        "attributes": {
                                           "operator": "="
                                        },
-                                       "name": "Assignment"
-                                    }
-                                 ],
-                                 "name": "Block"
-                              },
-                              {
-                                 "children": [
-                                    {
                                        "children": [
                                           {
+                                             "name": "Identifier",
+                                             "attributes": {
+                                                "value": "fact"
+                                             }
+                                          },
+                                          {
+                                             "name": "UnaryOperation",
+                                             "attributes": {
+                                                "type": "int",
+                                                "prefix": "false",
+                                                "operator": "-"
+                                             },
                                              "children": [
                                                 {
+                                                   "name": "Literal",
                                                    "attributes": {
-                                                      "value": "num"
-                                                   },
-                                                   "name": "Identifier"
-                                                },
-                                                {
-                                                   "attributes": {
-                                                      "value": "1",
-                                                      "type": "int"
-                                                   },
-                                                   "name": "Literal"
+                                                      "type": "int",
+                                                      "value": "1"
+                                                   }
                                                 }
-                                             ],
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "Block",
+                                 "children": [
+                                    {
+                                       "name": "IfStatement",
+                                       "children": [
+                                          {
+                                             "name": "BinaryOperation",
                                              "attributes": {
+                                                "type": "int",
                                                 "operator": ">",
                                                 "commonType": {
-                                                   "typeString": "int",
-                                                   "typeIdentifier": "t_int"
-                                                },
-                                                "type": "int"
+                                                   "typeIdentifier": "t_int",
+                                                   "typeString": "int"
+                                                }
                                              },
-                                             "name": "BinaryOperation"
-                                          },
-                                          {
                                              "children": [
                                                 {
+                                                   "name": "Identifier",
+                                                   "attributes": {
+                                                      "value": "num"
+                                                   }
+                                                },
+                                                {
+                                                   "name": "Literal",
+                                                   "attributes": {
+                                                      "type": "int",
+                                                      "value": "1"
+                                                   }
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name": "Block",
+                                             "children": [
+                                                {
+                                                   "name": "DoWhileStatement",
                                                    "children": [
                                                       {
-                                                         "children": [
-                                                            {
-                                                               "attributes": {
-                                                                  "value": "num"
-                                                               },
-                                                               "name": "Identifier"
-                                                            },
-                                                            {
-                                                               "attributes": {
-                                                                  "value": "1",
-                                                                  "type": "int"
-                                                               },
-                                                               "name": "Literal"
-                                                            }
-                                                         ],
+                                                         "name": "BinaryOperation",
                                                          "attributes": {
+                                                            "type": "int",
                                                             "operator": ">",
                                                             "commonType": {
-                                                               "typeString": "int",
-                                                               "typeIdentifier": "t_int"
-                                                            },
-                                                            "type": "int"
+                                                               "typeIdentifier": "t_int",
+                                                               "typeString": "int"
+                                                            }
                                                          },
-                                                         "name": "BinaryOperation"
-                                                      },
-                                                      {
                                                          "children": [
                                                             {
-                                                               "children": [
-                                                                  {
-                                                                     "attributes": {
-                                                                        "value": "fact"
-                                                                     },
-                                                                     "name": "Identifier"
-                                                                  },
-                                                                  {
-                                                                     "children": [
-                                                                        {
-                                                                           "attributes": {
-                                                                              "value": "fact"
-                                                                           },
-                                                                           "name": "Identifier"
-                                                                        },
-                                                                        {
-                                                                           "attributes": {
-                                                                              "value": "num"
-                                                                           },
-                                                                           "name": "Identifier"
-                                                                        }
-                                                                     ],
-                                                                     "attributes": {
-                                                                        "operator": "*",
-                                                                        "commonType": {
-                                                                           "typeString": "int",
-                                                                           "typeIdentifier": "t_int"
-                                                                        },
-                                                                        "type": "int"
-                                                                     },
-                                                                     "name": "BinaryOperation"
-                                                                  }
-                                                               ],
+                                                               "name": "Identifier",
                                                                "attributes": {
-                                                                  "operator": "="
-                                                               },
-                                                               "name": "Assignment"
+                                                                  "value": "num"
+                                                               }
                                                             },
                                                             {
-                                                               "children": [
-                                                                  {
-                                                                     "attributes": {
-                                                                        "value": "num"
-                                                                     },
-                                                                     "name": "Identifier"
-                                                                  },
-                                                                  {
-                                                                     "children": [
-                                                                        {
-                                                                           "attributes": {
-                                                                              "value": "num"
-                                                                           },
-                                                                           "name": "Identifier"
-                                                                        },
-                                                                        {
-                                                                           "attributes": {
-                                                                              "value": "1",
-                                                                              "type": "int"
-                                                                           },
-                                                                           "name": "Literal"
-                                                                        }
-                                                                     ],
-                                                                     "attributes": {
-                                                                        "operator": "-",
-                                                                        "commonType": {
-                                                                           "typeString": "int",
-                                                                           "typeIdentifier": "t_int"
-                                                                        },
-                                                                        "type": "int"
-                                                                     },
-                                                                     "name": "BinaryOperation"
-                                                                  }
-                                                               ],
+                                                               "name": "Literal",
+                                                               "attributes": {
+                                                                  "type": "int",
+                                                                  "value": "1"
+                                                               }
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name": "Block",
+                                                         "children": [
+                                                            {
+                                                               "name": "Assignment",
                                                                "attributes": {
                                                                   "operator": "="
                                                                },
-                                                               "name": "Assignment"
+                                                               "children": [
+                                                                  {
+                                                                     "name": "Identifier",
+                                                                     "attributes": {
+                                                                        "value": "fact"
+                                                                     }
+                                                                  },
+                                                                  {
+                                                                     "name": "BinaryOperation",
+                                                                     "attributes": {
+                                                                        "type": "int",
+                                                                        "operator": "*",
+                                                                        "commonType": {
+                                                                           "typeIdentifier": "t_int",
+                                                                           "typeString": "int"
+                                                                        }
+                                                                     },
+                                                                     "children": [
+                                                                        {
+                                                                           "name": "Identifier",
+                                                                           "attributes": {
+                                                                              "value": "fact"
+                                                                           }
+                                                                        },
+                                                                        {
+                                                                           "name": "Identifier",
+                                                                           "attributes": {
+                                                                              "value": "num"
+                                                                           }
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            },
+                                                            {
+                                                               "name": "Assignment",
+                                                               "attributes": {
+                                                                  "operator": "="
+                                                               },
+                                                               "children": [
+                                                                  {
+                                                                     "name": "Identifier",
+                                                                     "attributes": {
+                                                                        "value": "num"
+                                                                     }
+                                                                  },
+                                                                  {
+                                                                     "name": "BinaryOperation",
+                                                                     "attributes": {
+                                                                        "type": "int",
+                                                                        "operator": "-",
+                                                                        "commonType": {
+                                                                           "typeIdentifier": "t_int",
+                                                                           "typeString": "int"
+                                                                        }
+                                                                     },
+                                                                     "children": [
+                                                                        {
+                                                                           "name": "Identifier",
+                                                                           "attributes": {
+                                                                              "value": "num"
+                                                                           }
+                                                                        },
+                                                                        {
+                                                                           "name": "Literal",
+                                                                           "attributes": {
+                                                                              "type": "int",
+                                                                              "value": "1"
+                                                                           }
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
                                                             }
-                                                         ],
-                                                         "name": "Block"
+                                                         ]
                                                       }
-                                                   ],
-                                                   "name": "DoWhileStatement"
+                                                   ]
                                                 }
-                                             ],
-                                             "name": "Block"
+                                             ]
                                           },
                                           {
+                                             "name": "Block",
                                              "children": [
                                                 {
-                                                   "children": [
-                                                      {
-                                                         "attributes": {
-                                                            "value": "fact"
-                                                         },
-                                                         "name": "Identifier"
-                                                      },
-                                                      {
-                                                         "attributes": {
-                                                            "value": "1",
-                                                            "type": "int"
-                                                         },
-                                                         "name": "Literal"
-                                                      }
-                                                   ],
+                                                   "name": "Assignment",
                                                    "attributes": {
                                                       "operator": "="
                                                    },
-                                                   "name": "Assignment"
+                                                   "children": [
+                                                      {
+                                                         "name": "Identifier",
+                                                         "attributes": {
+                                                            "value": "fact"
+                                                         }
+                                                      },
+                                                      {
+                                                         "name": "Literal",
+                                                         "attributes": {
+                                                            "type": "int",
+                                                            "value": "1"
+                                                         }
+                                                      }
+                                                   ]
                                                 }
-                                             ],
-                                             "name": "Block"
+                                             ]
                                           }
-                                       ],
-                                       "name": "IfStatement"
+                                       ]
                                     }
-                                 ],
-                                 "name": "Block"
+                                 ]
                               }
-                           ],
-                           "name": "IfStatement"
+                           ]
                         }
-                     ],
-                     "name": "Block"
+                     ]
                   }
-               ],
-               "attributes": {
-                  "isStatic": "false",
-                  "visibility": "public",
-                  "kind": "function",
-                  "name": "verifyFactorial",
-                  "isConstructor": "false"
-               },
-               "name": "FunctionDefinition"
+               ]
             },
             {
+               "name": "FunctionDefinition",
+               "attributes": {
+                  "kind": "function",
+                  "isStatic": "true",
+                  "name": "main",
+                  "visibility": "public",
+                  "isConstructor": "false"
+               },
                "children": [
                   {
-                     "children": [],
+                     "name": "ReturnParameterList",
                      "attributes": {
                         "parameters": []
                      },
-                     "name": "ReturnParameterList"
+                     "children": []
                   },
                   {
+                     "name": "ParameterList",
                      "children": [
                         {
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "isArray": "true",
+                              "constant": "false",
+                              "type": "String",
+                              "name": "args",
+                              "visibility": "internal",
+                              "value": "null"
+                           },
                            "children": [
                               {
+                                 "name": "BuiltInTypeName",
                                  "attributes": {
                                     "type": "String",
                                     "name": "String"
-                                 },
-                                 "name": "BuiltInTypeName"
+                                 }
                               }
-                           ],
-                           "attributes": {
-                              "constant": "false",
-                              "value": "null",
-                              "visibility": "internal",
-                              "name": "args",
-                              "type": "String",
-                              "isArray": "true"
-                           },
-                           "name": "VariableDeclaration"
+                           ]
                         }
-                     ],
-                     "name": "ParameterList"
+                     ]
                   }
-               ],
-               "attributes": {
-                  "isStatic": "true",
-                  "visibility": "public",
-                  "kind": "function",
-                  "name": "main",
-                  "isConstructor": "false"
-               },
-               "name": "FunctionDefinition"
+               ]
             }
-         ],
-         "attributes": {
-            "baseClass": [],
-            "name": "Library"
-         },
-         "name": "ClassDefinition"
+         ]
       }
    ]
 }

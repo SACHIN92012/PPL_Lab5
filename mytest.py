@@ -13,7 +13,6 @@ import ast
 import copy
 import json
 import pprint
-result = open('result.txt', 'w')
 
 contextList = []
 
