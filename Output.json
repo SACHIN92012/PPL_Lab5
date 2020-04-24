@@ -1,0 +1,203 @@
+{
+   "children": [
+      {
+         "nodeType": "Imports",
+         "import": []
+      },
+      {
+         "children": [
+            {
+               "children": [
+                  {
+                     "children": [
+                        {
+                           "children": [
+                              {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "Integer",
+                                    "name": "int"
+                                 }
+                              }
+                           ],
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "visibility": "internal",
+                              "value": "null",
+                              "name": "",
+                              "type": "int"
+                           }
+                        }
+                     ],
+                     "name": "ReturnParameterList",
+                     "attributes": {
+                        "parameters": []
+                     }
+                  },
+                  {
+                     "children": [
+                        {
+                           "children": [
+                              {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "Integer",
+                                    "name": "int"
+                                 }
+                              }
+                           ],
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "isArray": "true",
+                              "value": "null",
+                              "visibility": "internal",
+                              "name": "aq",
+                              "type": "int"
+                           }
+                        },
+                        {
+                           "children": [
+                              {
+                                 "name": "BuiltInTypeName",
+                                 "attributes": {
+                                    "type": "char",
+                                    "name": "char"
+                                 }
+                              }
+                           ],
+                           "name": "VariableDeclaration",
+                           "attributes": {
+                              "constant": "false",
+                              "visibility": "internal",
+                              "name": "bx",
+                              "value": "null",
+                              "type": "char"
+                           }
+                        }
+                     ],
+                     "name": "ParameterList"
+                  },
+                  {
+                     "children": [
+                        {
+                           "children": [
+                              {
+                                 "children": [
+                                    {
+                                       "name": "Identifier",
+                                       "attributes": {
+                                          "value": "a"
+                                       }
+                                    },
+                                    {
+                                       "name": "Literal",
+                                       "attributes": {
+                                          "value": "2",
+                                          "type": "int"
+                                       }
+                                    }
+                                 ],
+                                 "name": "Assignment",
+                                 "attributes": {
+                                    "operator": "="
+                                 }
+                              },
+                              {
+                                 "children": [
+                                    {
+                                       "name": "Identifier",
+                                       "attributes": {
+                                          "value": "b"
+                                       }
+                                    },
+                                    {
+                                       "name": "Literal",
+                                       "attributes": {
+                                          "value": "3",
+                                          "type": "int"
+                                       }
+                                    }
+                                 ],
+                                 "name": "Assignment",
+                                 "attributes": {
+                                    "operator": "="
+                                 }
+                              },
+                              {
+                                 "children": [
+                                    {
+                                       "name": "Identifier",
+                                       "attributes": {
+                                          "value": "a"
+                                       }
+                                    },
+                                    {
+                                       "name": "Literal",
+                                       "attributes": {
+                                          "value": "5",
+                                          "type": "int"
+                                       }
+                                    }
+                                 ],
+                                 "name": "BinaryOperation",
+                                 "attributes": {
+                                    "commonType": {
+                                       "typeIdentifier": "t_int",
+                                       "typeString": "int"
+                                    },
+                                    "type": "int",
+                                    "operator": "<"
+                                 }
+                              },
+                              {
+                                 "children": [
+                                    {
+                                       "children": [
+                                          {
+                                             "name": "Identifier",
+                                             "attributes": {
+                                                "value": "c"
+                                             }
+                                          }
+                                       ],
+                                       "name": "UnaryOperation",
+                                       "attributes": {
+                                          "prefix": "false",
+                                          "operator": "++",
+                                          "type": "int"
+                                       }
+                                    }
+                                 ],
+                                 "name": "ExpressionStatement"
+                              },
+                              {
+                                 "children": [],
+                                 "name": "Block"
+                              }
+                           ],
+                           "name": "ForStatement"
+                        }
+                     ],
+                     "name": "Block"
+                  }
+               ],
+               "name": "FunctionDefinition",
+               "attributes": {
+                  "isStatic": "false",
+                  "isConstructor": "false",
+                  "visibility": "public",
+                  "name": "hi",
+                  "kind": "function"
+               }
+            }
+         ],
+         "name": "ClassDefinition",
+         "attributes": {
+            "baseClass": [],
+            "name": "Rectangle1"
+         }
+      }
+   ]
+}
